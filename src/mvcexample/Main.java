@@ -5,7 +5,7 @@ package mvcexample;
  * @author savi
  */
 // Launcher for application
-
+//A new comment to test "commit"
 public class Main {
    
     public static void main(String args[]) {
