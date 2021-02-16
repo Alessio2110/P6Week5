@@ -37,9 +37,10 @@ public class Controller2 extends JFrame
         clearViews = new JButton("Clear views");
         window.add(clearViews);
         clearViews.addActionListener(this);
-        refreshViews = new JButton("Refresh views");
-        window.add(refreshViews);
-        refreshViews.addActionListener(this);
+        //Old code commented out
+//        refreshViews = new JButton("Refresh views");
+//        window.add(refreshViews);
+//        refreshViews.addActionListener(this);
         // Create views
         view3 = new View3(this, model);
         window.add(view3);
@@ -58,10 +59,10 @@ public class Controller2 extends JFrame
             view3.clear();
             view4.clear();
         }
-        if (e.getSource() == refreshViews) {
-            view3.update();
-            view4.update();
-        }
+//        if (e.getSource() == refreshViews) {
+//            view3.update();
+//            view4.update();
+//        }
         
     } // actionPerformed
     
